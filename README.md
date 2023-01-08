@@ -7,6 +7,19 @@ Estadísticas de Fortnite mediante el ID de Epic Games, a través de una interfa
 Los datos obtenidos son por medio de la API de Fortnite (No oficial):
 https://fortniteapi.io/
 
+## Requisitos
+
+Se requiere tener instaladas las siguientes librerías:
+
+```python
+import sys
+from tkinter import messagebox
+from tkinter import *
+import ctypes
+import requests
+import json
+```
+
 ## Funcionamiento
 
 Para que funcione al 100%, es necesario obtener una API KEY a traves del enlace superior.
