@@ -6,3 +6,15 @@ Estadisticas de Fortnite mediante el ID de Epic Games, a traves de una interfaz 
 
 Los datos obtenidos son por medio de la API de Fortnite (No oficial):
 https://fortniteapi.io/
+
+## Funcionamiento
+
+Para que funcione al 100% es necesario obtener una API KEY a traves del enlace superior.
+
+Indicando la API KEY en la siguiente función:
+
+```python
+def getNumberAndNameSeason(season_value):
+    headerDict = {"Authorization":"YOUR_API_KEY"}
+```
+
