@@ -41,3 +41,8 @@ Así como también en la función:
 def getDataFromPlayer(_valor):
     headerDict = {"Authorization":"YOUR_API_KEY"}
 ```
+## Actualizaciones
+
+| Fecha | Autor | Versión |
+| --- | --- | --- |
+| 07/01/2023 | Eduardo Ulises M. | 1.0 |
