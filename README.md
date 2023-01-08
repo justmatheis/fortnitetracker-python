@@ -1,6 +1,6 @@
 # fortnitetracker-python
 
-Estadisticas de Fortnite mediante el ID de Epic Games, a traves de una interfaz realizada con la libreria Tkinter de Python.
+Estadísticas de Fortnite mediante el ID de Epic Games, a través de una interfaz realizada con la librería Tkinter de Python.
 
 ![image](https://user-images.githubusercontent.com/70301117/211180595-d070ea56-eb24-4c3c-92f4-841165e17517.png)
 
@@ -9,7 +9,7 @@ https://fortniteapi.io/
 
 ## Funcionamiento
 
-Para que funcione al 100% es necesario obtener una API KEY a traves del enlace superior.
+Para que funcione al 100%, es necesario obtener una API KEY a traves del enlace superior.
 
 Indicando la API KEY en la siguiente función:
 
@@ -17,4 +17,6 @@ Indicando la API KEY en la siguiente función:
 def getNumberAndNameSeason(season_value):
     headerDict = {"Authorization":"YOUR_API_KEY"}
 ```
+
+Así como también en la función:
 
