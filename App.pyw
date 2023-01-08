@@ -6,7 +6,7 @@ import requests
 import json
 
 def getNumberAndNameSeason(season_value):
-    headerDict = {"Authorization":"d1db3681-2d3bfab0-285745fe-785281a8"}
+    headerDict = {"Authorization":"YOUR_API_KEY"}
     
     try:
         _seasonRequest = 'https://fortniteapi.io/v1/seasons/list?lang=en'
@@ -23,7 +23,7 @@ def getNumberAndNameSeason(season_value):
         return 0
 
 def getDataFromPlayer(_valor):
-    headerDict = {"Authorization":"d1db3681-2d3bfab0-285745fe-785281a8"}
+    headerDict = {"Authorization":"YOUR_API_KEY"}
 
     try:
         _idPlayer = 'https://fortniteapi.io/v1/lookup?username=' + _valor
