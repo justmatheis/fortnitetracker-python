@@ -20,3 +20,7 @@ def getNumberAndNameSeason(season_value):
 
 Así como también en la función:
 
+```python
+def getDataFromPlayer(_valor):
+    headerDict = {"Authorization":"YOUR_API_KEY"}
+```
