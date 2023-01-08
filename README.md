@@ -20,6 +20,10 @@ import requests
 import json
 ```
 
+Así como de igual forma, la última versión de Python y PIP.
+
+https://www.python.org/
+
 ## Funcionamiento
 
 Para que funcione al 100%, es necesario obtener una API KEY a traves del enlace superior.
